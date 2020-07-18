@@ -1,0 +1,42 @@
+.Cloth_image img {
+    width: 100%;
+}
+
+.Cloth_info {
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.Cloth_card {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 29.322%;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+}
+
+.Add_to_cart_btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Added_to_card_btn {
+    background-color: rgb(26, 47, 238); 
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}

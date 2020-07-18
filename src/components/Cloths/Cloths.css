@@ -1,0 +1,27 @@
+.Cloths {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+@media(max-width: 920px) {
+    .product-card {
+        flex: 1 21%;
+    }
+}
+@media(max-width: 750px) {
+    .product-card {
+        flex: 1 30%;
+    }
+}
+@media(max-width: 500px) {
+    .product-card {
+        flex: 1 50%;
+    }
+}
